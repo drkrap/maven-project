@@ -12,10 +12,7 @@ public class Greeter {
 
   }
   
-  /**
-  * @param el nombre de una peersona
-  * @return caracter greeting
-  */
+/** {@inheritDoc} */
   
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
